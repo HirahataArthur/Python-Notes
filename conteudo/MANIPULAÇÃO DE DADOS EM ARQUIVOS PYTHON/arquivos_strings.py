@@ -1,5 +1,11 @@
 
-with open("frases.txt", 'r') as arquivo: ##MÉTODO COUNT, PARA REALIZAR CONTAGENS DE ELEMENTOS
+from pathlib import Path
+
+
+PASTA_DO_EXERCICIO = Path(__file__).resolve().parent
+
+
+with open(PASTA_DO_EXERCICIO / "frases.txt", 'r', encoding='utf-8') as arquivo: ##MÉTODO COUNT, PARA REALIZAR CONTAGENS DE ELEMENTOS
     ler = arquivo.read()
     contar = ler.count('l')
     print(f"Contagem de 'l' =  {contar}") ##CONTAGEM SUPERFICIAL, CONTA TODOS OS ELEMENTOS, MSM EM OUTROS TERMOS
@@ -18,12 +24,11 @@ print(f'Contador de "Ol"= {contador}')
 minha_lista = ['Abacaxi', 'Limão', 'Maçã']
 
 texto1 =  ', '.join(minha_lista) ##conectivo ',' depois de todo elemento da lista
-with open("texto1.txt", 'w', encoding='utf-8') as frase:
+with open(PASTA_DO_EXERCICIO / "texto1.txt", 'w', encoding='utf-8') as frase:
     frase.write(texto1)
 
 texto2 = '\n'.join(minha_lista) ## \n dps de todo elemento
-with open("textos2.txt", 'w', encoding='utf-8') as frase:
+with open(PASTA_DO_EXERCICIO / "textos2.txt", 'w', encoding='utf-8') as frase:
     frase.write(texto2)
   
-
 

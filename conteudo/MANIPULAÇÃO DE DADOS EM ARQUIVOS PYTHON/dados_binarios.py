@@ -39,3 +39,5 @@ def main():
  
 if __name__ == "__main__":
     main()
+
+# This code loads an image, converts it to binary data, saves it to a file, copies the file, manipulates the binary data by reversing the bytes, and then displays the modified image. however it still needs the file "dog.png" to be present in the same directory for it to work correctly.

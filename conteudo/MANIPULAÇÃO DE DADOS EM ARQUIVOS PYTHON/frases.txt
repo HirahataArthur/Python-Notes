@@ -1,0 +1,2 @@
+Ola, este arquivo contém frases para o exercício de manipulação de strings.
+Ola novamente: Python facilita a leitura e a contagem de palavras.

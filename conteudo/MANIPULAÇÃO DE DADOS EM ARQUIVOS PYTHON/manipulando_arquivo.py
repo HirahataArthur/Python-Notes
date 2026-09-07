@@ -34,3 +34,5 @@ while True:
         break
     else:
         print("Opção inexistente")
+
+    # this code snippet provides a simple command-line interface for manipulating a text file named "olamundo.txt". It allows the user to read the file, overwrite its content, append new content, or exit the program. The program continuously prompts the user for an action until they choose to exit. It also displays the current file name and its absolute path.
