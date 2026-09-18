@@ -1,0 +1,9 @@
+Simule um diário secreto orientado a objetos
+
+atributos
+__senha (privado)
+__segredos[] (privado)
+
+MÉTODOS
+escrever(msg)
+ler(senha)

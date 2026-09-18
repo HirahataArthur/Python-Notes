@@ -1,0 +1,9 @@
+*.log
+venev/
+out/
+.idea/
+*.class
+*.iml
+*.json
+*.pyc
+*/__pycache__/
