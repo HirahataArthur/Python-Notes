@@ -14,6 +14,7 @@ class Mensagem:
     def mensagem(self):
         return self._mensagem
 
+    @abstractmethod
     def mostrar(self):
         panel = Panel(self.mensagem, title= ":speech_balloon: AVISO :speech_balloon:", width=50)
         print(panel)
